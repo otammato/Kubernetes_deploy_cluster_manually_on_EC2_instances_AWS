@@ -10,7 +10,7 @@
 - Choose an instance type and configure other settings as required. Minimum suitable to Kubernetes is "t2.medium" (which has 2 vCPU).
 - I created 1 master and 1 worker. But the quantity can be more.
 - Create or select a security group that allows traffic to and from the instance on ports required by Kubernetes. in more details here: https://kubernetes.io/docs/reference/networking/ports-and-protocols/
-- SSH to the instance.
+- SSH to the master instance.
 <img width="1024" alt="Screenshot 2023-03-04 at 20 54 10" src="https://user-images.githubusercontent.com/104728608/222928300-89729d2f-709c-41ea-8114-eded3a5bcc1a.png">
 
 <img width="1024" alt="Screenshot 2023-03-04 at 20 21 00" src="https://user-images.githubusercontent.com/104728608/222927284-d6c025d6-dd0c-490c-b4b0-21cdc6fed8b1.png">
