@@ -12,11 +12,16 @@
 - Create or select a security group that allows traffic to and from the instance on ports required by Kubernetes. in more details here: https://kubernetes.io/docs/reference/networking/ports-and-protocols/
 - SSH to the master instance.
 
-### 1.2. Install Docker on the instance:
+### 1.2. Install Docker on the instance, start and enable Docker to launch on boot:
 
 ```
 sudo yum install docker -y
+sudo systemctl start docker
+sudo systemctl enable docker
 ```
+
+### 1.3. 
+
 
 <img width="1024" alt="Screenshot 2023-03-04 at 20 54 10" src="https://user-images.githubusercontent.com/104728608/222928300-89729d2f-709c-41ea-8114-eded3a5bcc1a.png">
 
