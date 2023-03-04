@@ -2,7 +2,7 @@
 
 [ Kubernetes ] Deploy manually a Kubernetes cluster on EC2 instances using AWS console and terminal
 
-## 1 
+## 1.
 <img width="1024" alt="Screenshot 2023-03-04 at 20 54 10" src="https://user-images.githubusercontent.com/104728608/222928300-89729d2f-709c-41ea-8114-eded3a5bcc1a.png">
 
 <img width="1024" alt="Screenshot 2023-03-04 at 20 21 00" src="https://user-images.githubusercontent.com/104728608/222927284-d6c025d6-dd0c-490c-b4b0-21cdc6fed8b1.png">
