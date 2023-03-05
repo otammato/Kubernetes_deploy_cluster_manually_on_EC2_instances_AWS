@@ -68,19 +68,14 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
 ### 1.6. Install a pod network add-on:
 
+Flannel is a popular networking solution for Kubernetes that allows pods running on different nodes to communicate with each other.
+
 Run the following command to install the Flannel pod network add-on:
 
 ```
 kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
 ```
-Flannel is a popular networking solution for Kubernetes that allows pods running on different nodes to communicate with each other.
-
-
-
-
-
-
-
+<br><br><br><br>
 
 ## 2. Worker Instances (install on each)
 
