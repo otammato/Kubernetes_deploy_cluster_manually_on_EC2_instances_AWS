@@ -34,7 +34,16 @@ repo_gpgcheck=1
 gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
 EOF
 ```
+- Install Kubernetes:
+```
+sudo yum install -y kubelet kubeadm kubectl
+```
+```
+systemctl start kubelet.service
+systemctl enable kubelet.service
+```
 
+### 
 
 <img width="1024" alt="Screenshot 2023-03-04 at 20 54 10" src="https://user-images.githubusercontent.com/104728608/222928300-89729d2f-709c-41ea-8114-eded3a5bcc1a.png">
 
