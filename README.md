@@ -4,7 +4,7 @@
 
 ## 1. Master Instance
 
-### 1.1. Create EC2 instances (I created 2, can be more):
+### 1.1. Create EC2 instances (I created two, can be more):
 
 - Go to the AWS console, click on EC2 and then launch instance.
 - Select an Amazon Machine Image (AMI) for the instances. It is recommended to use an Amazon Linux 2 AMI for Kubernetes. 
