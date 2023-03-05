@@ -1,6 +1,6 @@
-# Kubernetes_Deploy_manually_on_EC2_instances_AWS
+# Kubernetes_Deploy_a_cluster_manually_on_EC2_instances_AWS
 
-[ Kubernetes ] Deploy manually a Kubernetes cluster on EC2 instances using AWS console and terminal
+[ Kubernetes ] Deploy a cluster manually a Kubernetes cluster on EC2 instances using AWS console and terminal
 
 ## 1. Master Instance
 
