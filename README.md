@@ -39,8 +39,8 @@ EOF
 sudo yum install -y kubelet kubeadm kubectl
 ```
 ```
-systemctl start kubelet.service
-systemctl enable kubelet.service
+sudo systemctl start kubelet.service
+sudo systemctl enable kubelet.service
 ```
 
 ### 
