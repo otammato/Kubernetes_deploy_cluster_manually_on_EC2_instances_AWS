@@ -51,6 +51,14 @@ sudo kubeadm init --pod-network-cidr=192.168.0.0/16
 - Note down the kubeadm join command that is displayed on the console as you will need it later to join worker nodes to the cluster.
 <img width="700" alt="Screenshot 2023-03-04 at 20 39 16" src="https://user-images.githubusercontent.com/104728608/222927853-cf359cec-2e3c-44c1-a4c8-4f4eefbb1b2f.png">
 
+### 1.5. Configure kubectl:
+Run the following commands to configure kubectl:
+```
+mkdir -p $HOME/.kube
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+```
+
 
 <img width="1024" alt="Screenshot 2023-03-04 at 20 54 10" src="https://user-images.githubusercontent.com/104728608/222928300-89729d2f-709c-41ea-8114-eded3a5bcc1a.png">
 
