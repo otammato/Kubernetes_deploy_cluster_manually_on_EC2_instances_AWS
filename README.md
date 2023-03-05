@@ -43,7 +43,14 @@ sudo systemctl start kubelet.service
 sudo systemctl enable kubelet.service
 ```
 
-### 
+### 1.4. Initialize the Kubernetes cluster:
+- Run the following command to initialize the cluster:
+```
+sudo kubeadm init --pod-network-cidr=192.168.0.0/16
+```
+- Note down the kubeadm join command that is displayed on the console as you will need it later to join worker nodes to the cluster.
+
+Run the following command to initialize the cluster:
 
 <img width="1024" alt="Screenshot 2023-03-04 at 20 54 10" src="https://user-images.githubusercontent.com/104728608/222928300-89729d2f-709c-41ea-8114-eded3a5bcc1a.png">
 
