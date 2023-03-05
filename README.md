@@ -2,7 +2,8 @@
 
 [ Kubernetes ] Deploy manually a Kubernetes cluster on EC2 instances using AWS console and terminal
 
-## 1.
+## 1. Master Instance
+
 ### 1.1. Create an EC2 instance:
 
 - Go to the AWS console, click on EC2 and then launch instance.
@@ -81,7 +82,40 @@ Flannel is a popular networking solution for Kubernetes that allows pods running
 
 
 
-## 2.
+## 2. Worker Instances (install on each)
+
+### 2.1. Install Docker on the instance, start and enable Docker to launch on boot:
+
+```
+sudo yum install docker -y
+sudo systemctl start docker
+sudo systemctl enable docker
+```
+
+### 2.2. Install Kubernetes on the instance:
+
+- Add the Kubernetes repository:
+```
+sudo tee /etc/yum.repos.d/kubernetes.repo <<EOF
+[kubernetes]
+name=Kubernetes
+baseurl=https://packages.cloud.google.com/yum/repos/kubernetes-el7-x86_64
+enabled=1
+gpgcheck=1
+repo_gpgcheck=1
+gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
+EOF
+```
+- Install Kubernetes:
+```
+sudo yum install -y kubelet kubeadm kubectl
+```
+```
+sudo systemctl start kubelet.service
+sudo systemctl enable kubelet.service
+```
+
+
 
 <img width="1024" alt="Screenshot 2023-03-04 at 20 52 43" src="https://user-images.githubusercontent.com/104728608/222928282-b31c7907-f5df-41eb-93b4-3b82be4be00b.png">
 
