@@ -79,7 +79,7 @@ kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documen
 
 ## 2. Worker Instances (install on each)
 
-- SSH to the worker instance.
+### 2.0. SSH to the worker instance.
 
 <img width="700" alt="Screenshot 2023-03-04 at 20 52 43" src="https://user-images.githubusercontent.com/104728608/222928282-b31c7907-f5df-41eb-93b4-3b82be4be00b.png">
 
