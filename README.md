@@ -9,7 +9,7 @@
 - Select an Amazon Machine Image (AMI) for the instance. It is recommended to use an Amazon Linux 2 AMI for Kubernetes. 
 - Choose an instance type and configure other settings as required. Minimum suitable to Kubernetes is "t2.medium" (which has 2 vCPU).
 - I created 1 master and 1 worker. But the quantity can be more.
-- Create or select a security group that allows traffic to and from the instance on ports required by Kubernetes. in more details here: https://kubernetes.io/docs/reference/networking/ports-and-protocols/
+- Create or select a security group that allows traffic to and from the instance on ports required by Kubernetes. In more details on ports here: https://kubernetes.io/docs/reference/networking/ports-and-protocols/
 - SSH to the master instance.
 
 ### 1.2. Install Docker on the instance, start and enable Docker to launch on boot:
