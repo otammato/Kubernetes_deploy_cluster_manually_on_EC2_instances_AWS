@@ -20,7 +20,7 @@
 
 <img width="700" alt="Screenshot 2023-03-04 at 20 30 18" src="https://user-images.githubusercontent.com/104728608/222927394-e0b02992-49ec-4400-8c67-78d8d5e78da2.png">
 
-### 1.2. Install Docker on the instance, start and enable Docker to launch on boot:
+### 1.2. Install Docker on the master instance, start and enable Docker to launch on boot:
 
 ```
 sudo yum install docker -y
