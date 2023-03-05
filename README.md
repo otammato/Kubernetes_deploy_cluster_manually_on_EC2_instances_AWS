@@ -8,7 +8,7 @@
 
 - Go to the AWS console, click on EC2 and then launch instance.
 - Select an Amazon Machine Image (AMI) for the instances. It is recommended to use an Amazon Linux 2 AMI for Kubernetes. 
-- Choose an instance type and configure other settings as required. Minimum suitable to Kubernetes is "t2.medium" (which has 2 vCPU).
+- Choose an instance type and configure other settings as required. Minimum suitable to Kubernetes is "t2.medium" (which has 2 vCPUs).
 - I created 1 master and 1 worker. But the quantity can be more.
 - Create or select a security group that allows traffic to and from the instance on ports required by Kubernetes. In more details on ports here: https://kubernetes.io/docs/reference/networking/ports-and-protocols/
 - SSH to the master instance.
