@@ -140,7 +140,7 @@ WORKER NODE - run the kubeadm join command to join the node to the cluster:
 kubeadm join 172.31.84.144:6443 --token z4iu5e.fp32zfbzh8sdtsjp --discovery-token-ca-cert-hash sha256:651e9007c0d788d7eef1c02ca0882456134e1ec4d1e3cc0e93973ec2a4399bf7
 ```
 
-### 3.2. Result
+### 3.2. Result:
 - this is a success message on the WORKER NODE after launching the "join" command
 <img width="1024" alt="Screenshot 2023-03-04 at 21 14 41" src="https://user-images.githubusercontent.com/104728608/222929783-f45ede1f-208c-43f2-9efd-fc4c5dfe4747.png">
 
