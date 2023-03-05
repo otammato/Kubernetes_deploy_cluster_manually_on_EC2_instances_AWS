@@ -116,16 +116,16 @@ sudo systemctl start kubelet.service
 sudo systemctl enable kubelet.service
 ```
 
-## Result
-### 2.3. Join the EC2 instance to the Kubernetes cluster:
+<br><br>
+
+## 3. Result
+### 3.3. Join the EC2 instance to the Kubernetes cluster:
 
 MASTER NODE - run the following command to get the kubeadm join command:
 
 ```
 sudo kubeadm token create --print-join-command
 ```
-
-
 
 
 <img width="1024" alt="Screenshot 2023-03-04 at 21 08 30" src="https://user-images.githubusercontent.com/104728608/222929784-ca4260ca-96a5-40d6-bece-e3256f7da78b.png">
