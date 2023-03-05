@@ -131,6 +131,8 @@ sudo kubeadm token create --print-join-command
 
 - Copy the kubeadm join command that is displayed on the console.
 
+
+<br><br>
 WORKER NODE - run the kubeadm join command to join the node to the cluster:
 
 ```
