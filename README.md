@@ -148,6 +148,8 @@ kubeadm join 172.31.84.144:6443 --token z4iu5e.fp32zfbzh8sdtsjp --discovery-toke
 kubectl get nodes
 kubectl get all
 ```
+
+<br><br>
 - this is a success message on the MASTER NODE after launching standard kubectl commands
 <img width="1024" alt="Screenshot 2023-03-04 at 21 22 23" src="https://user-images.githubusercontent.com/104728608/222929829-803aeb00-ab14-4cd3-8154-e5ee81f9ae16.png">
 
