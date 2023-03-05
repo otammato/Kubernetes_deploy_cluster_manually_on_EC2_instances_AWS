@@ -142,12 +142,14 @@ kubeadm join 172.31.84.144:6443 --token z4iu5e.fp32zfbzh8sdtsjp --discovery-toke
 
 ### 3.2. Result:
 - this is a success message on the WORKER NODE after launching the "join" command
-<img width="1024" alt="Screenshot 2023-03-04 at 21 14 41" src="https://user-images.githubusercontent.com/104728608/222929783-f45ede1f-208c-43f2-9efd-fc4c5dfe4747.png">
+
+<img width="1024" alt="Screenshot 2023-03-04 at 21 14 41" src="https://user-images.githubusercontent.com/104728608/222958934-5b5c22bc-74af-438d-a2da-bd9ac4388073.png">
 
 ```
 kubectl get nodes
 kubectl get all
 ```
+
 
 <br><br>
 - this is a success message on the MASTER NODE after launching standard kubectl commands
