@@ -58,7 +58,13 @@ mkdir -p $HOME/.kube
 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
+### 1.6. Install a pod network add-on:
 
+Run the following command to install the Flannel pod network add-on:
+
+```
+kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
+```
 
 <img width="1024" alt="Screenshot 2023-03-04 at 20 54 10" src="https://user-images.githubusercontent.com/104728608/222928300-89729d2f-709c-41ea-8114-eded3a5bcc1a.png">
 
